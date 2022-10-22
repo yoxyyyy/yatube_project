@@ -19,5 +19,6 @@ def group_posts(request, slug):
     }
     return render(request, template, context)
 
+
 def posts(request):
     return HttpResponse(200)
